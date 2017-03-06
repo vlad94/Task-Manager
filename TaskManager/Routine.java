@@ -23,6 +23,6 @@ public class Routine extends Task{
 	@Override
 	public String toString() {
 		// TODO print info for task and days left to repeat
-		return null;
+		return "Routine\nName: " + name + "\nDescription: " + description + "\nDays left: " + repeatDays;
 	}
 }
