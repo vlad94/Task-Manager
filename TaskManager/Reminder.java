@@ -25,7 +25,6 @@ public class Reminder extends Task{
 
 	@Override
 	public String toString() {
-		// TODO print info for task and the repeatType
-		return null;
+		return "Name: " + name + ", Description: " + description;
 	}
 }
